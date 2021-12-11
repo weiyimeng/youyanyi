@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义设置控件所需的属性-->
+    <declare-styleable name="SettingView">
+        <attr name="uikit_setting_left_icn" format="reference"></attr>
+        <attr name="uikit_setting_center_text" format="string|integer"></attr>
+        <attr name="uikit_setting_right_icn" format="reference"></attr>
+    </declare-styleable>
+</resources>

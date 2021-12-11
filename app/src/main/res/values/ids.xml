@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--图片-->
+    <item name="iv_back" type="id">true</item>
+
+    <!--文字-->
+    <item name="tv_title" type="id">true</item>
+
+    <!--线性布局-->
+
+    <!--相对布局-->
+
+    <!--自定义控件-->
+</resources>

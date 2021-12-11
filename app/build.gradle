@@ -1,0 +1,109 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'com.jakewharton.hugo'
+apply plugin: 'me.tatarka.retrolambda'
+
+buildscript {
+     repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+                classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
+    }
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId 'com.uyu.device.devicetraining'
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        versionCode = VERSIONCODE as int
+        versionName = VERSIONNAME;
+    }
+
+    signingConfigs {
+        release {
+            keyAlias KEYALIAS
+            keyPassword KEYPASSWORD
+            storeFile file(STOREFILE)
+            storePassword STOREPASSWORD
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled Boolean.valueOf(RELEASE_MINIFY)
+            proguardFiles getDefaultProguardFile(PROGUARD_ANDROID), PROGUARD_RULES
+            //签名信息
+            signingConfig signingConfigs.release
+            shrinkResources true
+        }
+        debug {
+            minifyEnabled Boolean.valueOf(DEBUG_MINIFY)
+            proguardFiles getDefaultProguardFile(PROGUARD_ANDROID), PROGUARD_RULES
+            //签名信息
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+    buildToolsVersion '25.0.0'
+}
+
+dependencies {
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':library')
+    compile project(':updater')
+
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.+'
+    compile 'com.android.support:design:24.+'
+    compile 'com.jakewharton.timber:timber:4.1.0'
+
+    //dagger2
+    compile 'com.google.dagger:dagger:2.0.2'
+    apt 'com.google.dagger:dagger-compiler:2.0.2'
+
+    //butterknife
+    compile 'com.jakewharton:butterknife:7.0.1'
+
+    //retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.0.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.okio:okio:1.6.0'
+    compile 'com.google.code.gson:gson:2.4'
+
+    //rxandroid
+    compile 'io.reactivex:rxjava:1.1.1'
+    compile 'io.reactivex:rxandroid:1.1.0'
+
+    //javax
+    compile 'javax.annotation:jsr250-api:1.0'
+
+    //universalimageloader
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+
+    //检查内存泄漏
+    compile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
+//    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
+//    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+
+    //DBFlow的数据库框架
+//    apt "com.github.Raizlabs.DBFlow:dbflow-processor:$rootProject.ext.dbflowVersion"
+//    compile "com.github.Raizlabs.DBFlow:dbflow-core:$rootProject.ext.dbflowVersion"
+//    compile "com.github.Raizlabs.DBFlow:dbflow:$rootProject.ext.dbflowVersion"
+
+    //游戏 还未集成进去
+//    compile project(":game:balloonGame")
+}

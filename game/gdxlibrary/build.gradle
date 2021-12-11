@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        //平台 Available ABIs are [armeabi, armeabi-v7a, arm64-v8a, x86, x86_64, mips, mips64].
+//        ndk {
+//            abiFilters 'armeabi-v7a','arm64-v8a','x86'
+//        }
+    }
+    buildToolsVersion '25.0.0'
+}
+
+dependencies {
+    compile "com.badlogicgames.gdx:gdx:$rootProject.ext.gdxVersion"
+    compile "com.badlogicgames.gdx:gdx-backend-android:$rootProject.ext.gdxVersion"
+}

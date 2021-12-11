@@ -1,0 +1,7 @@
+<resources>
+    <string name="new_version">发现新版本</string>
+    <string name="new_message"></string>
+    <string name="downloading">正在下载...</string>
+    <string name="percent">%</string>
+    <string name="prefix_download">正在下载</string>
+</resources>

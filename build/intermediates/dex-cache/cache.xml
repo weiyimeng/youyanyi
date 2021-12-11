@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/okio-1.6.0_2c1388012594e491d99963048afc7799b0ccb32b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2bac9385ea008561a30419c09e9230a8681b3e09">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.jakewharton.hugo-hugo-runtime-1.2.1_2372b60064148f427c9f9a52ca69a455de5b8de0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/javax.annotation/jsr250-api/1.0/5025422767732a1ab45d93abfea846513d742dcf/jsr250-api-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5025422767732a1ab45d93abfea846513d742dcf">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/jsr250-api-1.0_ccfa10287729ff7602b9a0ddd6dfcef561ec1c76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_f1de687da9153ae773140b5ffee873f4bef4787f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_4883ddad26f7243eaaf12998221cd9fbf88992bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_d876f0ec8abf6fb4e128b9e94d9bf3eb6ea6ed6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_c565fcba7eabf2e64c16bf5d158061cc40abf297.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_6052cca533defd5cfd2444ffdf4ecac53b39d547.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_9154b775464bbf508e697330e91d597df9a64891.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_d2e3df88f55273ad2c3af19028f3111b352c0fa9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0/49eb3ad545e7701234e4dd83db8dc1344b577f23/converter-gson-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="49eb3ad545e7701234e4dd83db8dc1344b577f23">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0_cc83f4381bbb3f934294dc927b2b4d1c8875dffe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/libs/Msc.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="bad3f17744b208362aa7e20242a6261cf2d21977">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/Msc_9166ed89cf70669dc2335352990c352865ff9dff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_dcc657c04d918d0d2743e6878ebb6a2741f7c548.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.0/5c06d197fb7fa875ad452f562e3310dd9949d066/retrofit-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5c06d197fb7fa875ad452f562e3310dd9949d066">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0_5da80198060f087065e7ec7d9672576577fa29d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/libs/Sunflower.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="234a37979973c2167ed83e11fa9315acf0e69cfc">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/Sunflower_efc46657f7a05b8056884a645cc281bc7d080885.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.2/fd65b84d12d6adc77ec0e4fcaca623fc391d8679/haha-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fd65b84d12d6adc77ec0e4fcaca623fc391d8679">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/haha-2.0.2_c902294d890f6545ac9a00ab90580af70d52babc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.4-beta2/6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92/leakcanary-watcher-1.4-beta2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/leakcanary-watcher-1.4-beta2_5266801cbb2d790ab1d683eac64b3a9e4f1cf2d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.0/bf61256d9868ea053e24d77669c55c80db375c15/adapter-rxjava-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="bf61256d9868ea053e24d77669c55c80db375c15">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0_cc4176624b7d444c8a276a0a52ec12f2c676cb43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.1/b494968f6050d494de55dc3ce005e59c7eb40012/rxjava-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b494968f6050d494de55dc3ce005e59c7eb40012">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/rxjava-1.1.1_16bdf9041c95bc81dc3b23da848202d2260f2529.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/gson-2.6.1_5bceebfde6043a2e19e2715b889d87ea40ffb893.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/huyan-training-device/updater/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="67237581d3145ed8f63814716408ceee04ddd4cc">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/huyan-training-device-updater-unspecified_51becb911d3a4c6923cb155d471f4800729ecb40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3_86b2f6054f8c6cf00b1737620401deb87f2d55ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_29c2ecea4365acde3f262f5c166292f6fcdba73f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.0.2/de8416eda7b2fd7c25836b140c39e1cbf10542f6/dagger-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="de8416eda7b2fd7c25836b140c39e1cbf10542f6">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/dagger-2.0.2_86c585f11623b4ea1c417e22aaf3f34711515735.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_1e8eda478825e6ab6c54ed3d00162302fc0230dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_751d966b326ee6617f0bcfc116527aeac62b3c48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/huyan-training-device/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="838e981b80507776624b9a842444c5ec6fbc9c7f">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/huyan-training-device-library-unspecified_546f377588c86b2d07398652923bd6e08600e2d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.2.1/b01150795c5cdca1eb7e501bf00f105ff0e31501/hugo-annotations-1.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b01150795c5cdca1eb7e501bf00f105ff0e31501">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/hugo-annotations-1.2.1_72e6e639f3d0dcf982d49346a849185c4d58ceab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_2f73e88b90ebecf79c630f91011f817aea0d440b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_1d7238755d052584db62eb2f588328e6d79e8439.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_536168364f1b07bf4b19816eeab97d60151005f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.github.Raizlabs.DBFlow/dbflow-core/3.0.1/e9014c38af79e42dae3f73ce350a7cefef0ff7ea/dbflow-core-3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e9014c38af79e42dae3f73ce350a7cefef0ff7ea">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/dbflow-core-3.0.1_79656520ac8f497f1f682c4869ed7a264b1fe8e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/libs/org.eclipse.paho.client.mqttv3-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4cb05289301b8fd00c758db5eed1ef11b8b2a9b0">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/org.eclipse.paho.client.mqttv3-1.0.2_bd5b156fc6757fa883c3bf4d4e450406b3e9d8b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.1.0_7985c8b67572dbf3b7df2c7bed53ce1ecdcad368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.jakewharton.timber/timber/4.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f45a0143e9c43a459f3f331a6b3e7daf13981ef4">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.jakewharton.timber-timber-4.1.0_4351380aa9abc8565d455e66e32114eade34ffcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_2f37ce35c6f6a1a5343e7e575b08736b97014d76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/libs/zxing.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/zxing_c968fbaa8a3fc1ba02ad9a6819b2244974b8ac6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_5c90e379c0a755565fa5e627877c84dbe8538c66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.5/39a8ff2d1f79267907f5573c090b342b040b9682/aspectjrt-1.8.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="39a8ff2d1f79267907f5573c090b342b040b9682">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/aspectjrt-1.8.5_72cf45b80b66e89737005fd69f11a8544e3eedcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/sdks/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_fc0e2ca486e62f1a10b8cfb56f52b6371cbed928.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.4-beta2/449777cd466ac0a16f7e8d0dc508e70e2cdd13a9/leakcanary-analyzer-1.4-beta2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="449777cd466ac0a16f7e8d0dc508e70e2cdd13a9">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/leakcanary-analyzer-1.4-beta2_22dbfaa00a12dc20a2cdf5a71ceddf95e3960e66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/javax.inject-1_124b72442f7038671a085d156c73b2f5be8ba919.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow/3.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="920abacee400bafcbb94fc518cfe528f5818f1e9">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.github.Raizlabs.DBFlow-dbflow-3.0.1_af3979aa232eae2a5878e0888c9923bbb4796efc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/com.squareup.leakcanary-leakcanary-android-1.4-beta2_fa0952e3f6a701590bd025b51d1e844fa1432c5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_ec8aeb4388ce008d2711481470d64f9e1da09ccd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b2fb0c7c857c65aace5f703e714607ee65dcb091.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/zhaowei/work/uyu/huyan-training-device/app/libs/org.eclipse.paho.android.service-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="442f81337cb942a855ab20a4a16bfe43adb612c7">
+        <dex dex="/Users/zhaowei/work/uyu/huyan-training-device/app/build/intermediates/pre-dexed/debug/org.eclipse.paho.android.service-1.0.2_185413b3eab7c12938b96d43a9d77cfafa8108c1.jar" />
+    </item>
+
+</items>

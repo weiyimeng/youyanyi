@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/train_complete_msg"
+        android:textSize="18sp"
+        android:textColor="@color/theme_font_color"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/shape_bt_bg"
+        />
+
+</LinearLayout>

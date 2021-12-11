@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    >
+
+    <com.uyu.device.devicetraining.presentation.view.widget.BannerBarView
+        android:id="@+id/banner_bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.uyu.device.devicetraining.presentation.view.widget.BannerBarView>
+
+    <RelativeLayout
+        android:id="@+id/container_check_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout android:id="@+id/fl_fragment_check_auth" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+            <fragment
+                android:name="com.uyu.device.devicetraining.presentation.view.fragment.CheckAuthFragment"
+                android:id="@+id/fragment_check_auth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout android:id="@+id/fl_fragment_login" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+            <fragment
+                android:name="com.uyu.device.devicetraining.presentation.view.fragment.LoginFragment"
+                android:id="@+id/fragment_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout android:id="@+id/fl_fragment_introduction" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+            <fragment
+                android:name="com.uyu.device.devicetraining.presentation.view.fragment.IntroductionFragment"
+                android:id="@+id/fragment_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout android:id="@+id/fl_fragment_show_code" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+            <fragment
+                android:name="com.uyu.device.devicetraining.presentation.view.fragment.ShowCodeFragment"
+                android:id="@+id/fragment_show_code"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout android:id="@+id/fl_fragment_lock" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+            <fragment
+                android:name="com.uyu.device.devicetraining.presentation.view.fragment.LockFragment"
+                android:id="@+id/fragment_lock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_train"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <FrameLayout android:id="@+id/fl_fragment_train_stage" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+            <fragment
+                android:name="com.uyu.device.devicetraining.presentation.view.fragment.TrainStageFragment"
+                android:id="@+id/fragment_train_stage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/container_time_training"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout android:id="@+id/fl_fragment_stereoscope" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <fragment
+                    android:name="com.uyu.device.devicetraining.presentation.view.fragment.StereoscopeTrainFragment"
+                    android:id="@+id/fragment_stereoscope"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/fl_fragment_fractured_ruler" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <fragment
+                    android:name="com.uyu.device.devicetraining.presentation.view.fragment.FracturedRulerTrainFragment"
+                    android:id="@+id/fragment_fractured_ruler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/fl_fragment_reversal" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <fragment
+                    android:name="com.uyu.device.devicetraining.presentation.view.fragment.ReversalTrainFragment"
+                    android:id="@+id/fragment_reversal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/fl_fragment_red_green_read" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <fragment
+                    android:name="com.uyu.device.devicetraining.presentation.view.fragment.RedGreenReadTrainFragment"
+                    android:id="@+id/fragment_red_green_read"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/fl_fragment_approach" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <fragment
+                    android:name="com.uyu.device.devicetraining.presentation.view.fragment.ApproachTrainFragment"
+                    android:id="@+id/fragment_approach"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/fl_fragment_r_g_variable_vector" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <fragment
+                    android:name="com.uyu.device.devicetraining.presentation.view.fragment.RGVariableVectorTrainFragment"
+                    android:id="@+id/fragment_r_g_variable_vector"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/fl_fragment_r_g_fixed_vector" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <fragment
+                    android:name="com.uyu.device.devicetraining.presentation.view.fragment.RGFixedVectorTrainFragment"
+                    android:id="@+id/fragment_r_g_fixed_vector"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/fl_fragment_glance" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <fragment
+                    android:name="com.uyu.device.devicetraining.presentation.view.fragment.GlanceTrainFragment"
+                    android:id="@+id/fragment_glance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </FrameLayout>
+
+            <FrameLayout android:id="@+id/fl_fragment_follow" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <fragment
+                    android:name="com.uyu.device.devicetraining.presentation.view.fragment.FollowTrainFragment"
+                    android:id="@+id/fragment_follow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_train_trial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout android:id="@+id/fl_fragment_whole_trial_train" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+            <fragment
+                android:name="com.uyu.device.devicetraining.presentation.view.fragment.trial.WholeTrialTrainFragment"
+                android:id="@+id/fragment_whole_trial_train"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

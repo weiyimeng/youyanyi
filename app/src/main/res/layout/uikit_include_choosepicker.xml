@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/pop_label1"
+            style="@style/picker_text_label"
+            android:text="@string/mirror_ball_degrees" />
+
+        <TextView
+            android:id="@+id/pop_label2"
+            style="@style/picker_text_label"
+            android:text="@string/column_mirror_degrees" />
+
+        <TextView
+            android:id="@+id/pop_label3"
+            style="@style/picker_text_label"
+            android:text="@string/astigmatism_axial" />
+
+        <TextView
+            android:id="@+id/pop_label4"
+            style="@style/picker_text_label"
+            android:text="@string/mirror_ball_degrees" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.uikit.thirdly.picker.view.WheelView
+            android:id="@+id/wheel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.uikit.thirdly.picker.view.WheelView
+            android:id="@+id/wheel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.uikit.thirdly.picker.view.WheelView
+            android:id="@+id/wheel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.uikit.thirdly.picker.view.WheelView
+            android:id="@+id/wheel4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

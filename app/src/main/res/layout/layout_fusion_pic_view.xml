@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300px">
+    <RelativeLayout
+        android:id="@+id/fusion_pic_container"
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/fusion_pic_left"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_centerVertical="true"
+            android:src="@drawable/stereoscope_bo_left_default" />
+        <ImageView
+            android:id="@+id/fusion_pic_right"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_centerVertical="true"
+            android:src="@drawable/stereoscope_bo_right_default" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:name="com.uyu.device.devicetraining.presentation.view.fragment.WelcomeFragment"
+            android:id="@+id/fragmentTrialWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_user_all_pres"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.uyu.device.devicetraining.presentation.view.adapter.selfhelp.UserAllPresView
+            android:id="@+id/userAllPresView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.uyu.device.devicetraining.presentation.view.adapter.selfhelp.UserAllPresView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_device_overall_prepare"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.uyu.device.devicetraining.presentation.view.adapter.selfhelp.TrainPrepareViewA
+            android:id="@+id/device_overall_prepare_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_prepare"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.uyu.device.devicetraining.presentation.view.adapter.selfhelp.TrainPrepareViewA
+            android:id="@+id/train_prepare_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_one_end"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.uyu.device.devicetraining.presentation.view.adapter.selfhelp.TrainPrepareViewA
+            android:id="@+id/one_end_prepare_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_all_end"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.uyu.device.devicetraining.presentation.view.adapter.selfhelp.TrainAllFinishView
+            android:id="@+id/trainallfinishview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.uyu.device.devicetraining.presentation.view.adapter.selfhelp.TrainAllFinishView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_show_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.uyu.device.devicetraining.presentation.view.adapter.selfhelp.ShowResultView
+            android:id="@+id/show_result_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.uyu.device.devicetraining.presentation.view.adapter.selfhelp.ShowResultView>
+    </RelativeLayout>
+
+</RelativeLayout>

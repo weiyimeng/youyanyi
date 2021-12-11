@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@mipmap/train_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/menu_step_nums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="4dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/maincolor"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/num_hint"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:padding="4dp"
+        android:textColor="@color/gray"
+        android:textStyle="italic"
+        android:textSize="14sp"
+        />
+
+</LinearLayout>

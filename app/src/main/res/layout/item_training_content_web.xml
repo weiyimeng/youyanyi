@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="18dp"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp">
+            <ImageView
+                android:id="@+id/imgView_cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_book_default"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/txt_cover_book_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textSize="@dimen/txt_size_lg"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_marginBottom="10dp"
+                android:textSize="30sp"
+                android:textColor="@color/light_blue_title" />
+
+            <TextView android:id="@+id/txt_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <TextView android:id="@+id/txt_breif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txt_title"
+                android:lines="2"
+                android:ellipsize="end"
+                android:textColor="@color/light_gray_title"/>
+
+            <Button
+                android:id="@+id/btn_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_style_download"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_main"
+        android:src="@drawable/bg_one_bookshelf"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>

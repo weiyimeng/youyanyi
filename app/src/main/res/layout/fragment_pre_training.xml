@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/single_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+    <ImageView
+        android:id="@+id/step_nums"
+        android:layout_width="60dp"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-14dp"
+        android:layout_toEndOf="@+id/left_before"
+        android:layout_toRightOf="@+id/left_before"
+        android:padding="3dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/train_step_num1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/right_next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"
+        android:clickable="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_right"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/left_before"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:clickable="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_left"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>
+

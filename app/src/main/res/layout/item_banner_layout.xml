@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/black"
+    android:id="@+id/rl"
+    >
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/iv_logo"
+        android:textColor="@color/theme_font_color"
+        android:textSize="10sp"
+        android:text=""
+        android:visibility="visible"
+        />
+
+    <Button
+        android:id="@+id/btn_finish_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_current_train"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/tv_device_name"
+        android:background="@drawable/shape_bt_bg"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/theme_font_color"
+        android:textSize="22sp"
+        android:text="@string/title_scan_code"/>
+
+    <!--发现在训练机迅为的的pad上，居中和margintop往下一点都户点击变慢，所以不设置高度，-->
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="@string/finish_train"
+        android:background="@drawable/shape_bt_bg"
+        android:padding="5dp"
+        android:layout_toLeftOf="@+id/ll_youyan_download"
+        />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/theme_font_color"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tv_device_name"
+        android:layout_marginLeft="5dp"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/tv_item_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/theme_font_color"
+        android:textSize="18sp"
+        android:layout_toLeftOf="@+id/ll_instructions"
+        android:text="" />
+
+    <LinearLayout
+        android:id="@+id/ll_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:layout_toLeftOf="@+id/ll_youyan_download"
+        android:layout_marginRight="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/instructions"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            android:textSize="12sp"
+            android:textColor="@color/theme_font_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_youyan_download"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/selector_youyan_download_bg"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/youyan_download_logo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/download_youyan_app"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/theme_font_color"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

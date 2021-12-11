@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_pause_qrcode"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/download_qr" />
+
+    <TextView
+        android:id="@+id/tv_pause_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"
+        android:layout_above="@id/iv_pause_qrcode"
+        android:text="@string/pause_tip"/>
+
+    <TextView
+        android:id="@+id/tv_pause_operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:text="@string/pause_operation"
+        android:layout_below="@id/iv_pause_qrcode" />
+
+    <TextView
+        android:id="@+id/tv_pause_extra_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_below="@id/tv_pause_operation"
+        android:text="@string/pause_extra_desc"/>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/uikit_picker_title_h"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+         >
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:background="@android:color/transparent"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="@string/pickerview_cancel"
+            android:textColor="@drawable/uikit_wheel_timebtn" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:background="@android:color/transparent"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/pickerview_submit"
+            android:textColor="@drawable/uikit_wheel_timebtn" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#D8D3D3" />
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <include
+        android:id="@+id/timepicker"
+        layout="@layout/uikit_include_timepicker" />
+    <View 
+        android:layout_alignTop="@id/timepicker"
+        android:layout_alignBottom="@id/timepicker"
+        android:background="@drawable/uikit_bg_above_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </RelativeLayout>
+
+</LinearLayout>

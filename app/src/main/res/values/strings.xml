@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">优眼仪</string>
+    <string name="action_settings">action_settings</string>
+    <string name="url">http://www.android10.org/</string>
+
+    <string name="activity_title_user_list">Users List</string>
+    <string name="activity_title_user_details">User Details</string>
+
+    <string name="btn_text_load_data">Load Sample Data</string>
+    <string name="btn_text_retry">Retry</string>
+
+    <string name="view_text_email">Email:</string>
+    <string name="view_text_followers">Followers:</string>
+    <string name="view_text_description">Description:</string>
+
+    <string name="string_content_description">Non accessible view</string>
+
+    //Exception messages
+    <string name="exception_message_generic">There was an application error</string>
+    <string name="exception_message_no_connection">There is no internet connection</string>
+    <string name="exception_message_user_not_found">Cannot retrieve user data. Check your internet connection</string>
+    <string name="title_activity_reversal_train">ReversalTrainActivity</string>
+    <string name="welcome">welcome</string>
+    <string name="title_welcome">title_welcome</string>
+
+
+    <!--自定义对话框-->
+    <string name="prompt">提示</string>
+    <string name="exit_app">你确定要退出应用吗?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="dismiss">隐藏</string>
+    <string name="welcome_overall_title">欢迎使用UYU眼力训练仪</string>
+    <string name="wait_tip">客官，小U在马不停蹄的赶来，请耐心等待</string>
+    <string name="pause_tip">暂停中，请稍后</string>
+    <string name="title_scan_code">扫描设备训练的二维码</string>
+    <string name="title_sub_item">训练小项</string>
+    <string name="title_stereoscope">立体镜</string>
+    <string name="title_fractured_ruler">裂隙尺</string>
+    <string name="title_reversal">翻转拍</string>
+    <string name="title_train">训练项目</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_new_welcome">NewWelcomeActivity</string>
+    <string name="title_red_green_read">红绿阅读</string>
+    <string name="title_glance">扫视</string>
+    <string name="title_r_g_variable_vector">红绿可变</string>
+    <string name="title_r_g_fixed_vector">红绿固定</string>
+    <string name="title_follow">追随</string>
+    <string name="tip_approach">欢迎进行推进训练</string>
+    <string name="prepare_tip">设备调整中请望远……</string>
+
+    <string name="author">作者：</string>
+    <string name="download_amount">下载量 ：</string>
+    <string name="select">选择</string>
+    <string name="category_label">分类:</string>
+
+    <string name="current_train_pic">当前训练到第7张图</string>
+    <string name="click_choose">点击选择</string>
+    <string name="num">数字</string>
+    <string name="zimu">字母</string>
+    <string name="aritcle">文章</string>
+    <string name="choose_train_content">选择训练内容</string>
+    <string name="train_content">训练内容:</string>
+    <string name="start_training">开始训练</string>
+    <string name="title">标题</string>
+    <string name="close">关闭</string>
+    <string name="right_eye">右眼:</string>
+    <string name="left_eye">左眼:</string>
+    <string name="eye_right">右眼</string>
+    <string name="eye_left">左眼</string>
+    <string name="eye_double">双眼</string>
+    <string name="next_train">点击下一项训练</string>
+    <string name="sure">确定</string>
+    <string name="all_train_finish_item">全部训练完成</string>
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+
+    <string name="start_train">开始训练</string>
+    <string name="finish_train">结束整次训练</string>
+    <string name="finish_item_train">结束小项训练</string>
+    <string name="refresh_code">刷新二维码</string>
+    <string name="device_user_name">设备登录账户</string>
+    <string name="device_password">设备登录密码</string>
+    <string name="login">登录</string>
+    <string name="device_login">设备登录</string>
+    <string name="check_auth">设备连接云端中……</string>
+    <string name="function_overview">小优博士擅长近视防、控，视疲劳康复</string>
+    <string name="step1">第一步</string>
+    <string name="step1_intro">①下载优眼App</string>
+    <string name="step2">第二步</string>
+    <string name="step2_intro">②注册、登录优眼账户</string>
+    <string name="step3">第三步</string>
+    <string name="step3_intro">③扫描优眼仪二维码</string>
+    <string name="intro_start">点击此处开启神奇之旅</string>
+    <string name="pause_operation">训练用户扫码继续训练</string>
+    <string name="pause_extra_desc">（暂停4分钟后，将结束训练）</string>
+    <string name="select_user_content">选择您的图书或新闻</string>
+    <string name="choose_start_article_news">选择开始的文章或新闻</string>
+
+    <string name="train_complete_msg">训练已完成，请去优眼公众号查看结果</string>
+    <string name="ok">确定</string>
+    <string name="download_youyan_app">下载优眼APP</string>
+    <string name="instructions">使用说明</string>
+    <string name="prepare">准备</string>
+    <string name="reversal">调节能力</string>
+    <string name="stereoscope">协调散开</string>
+    <string name="red_green">协调集合</string>
+    <string name="weixin_scanner_qr">用微信APP扫描二维码</string>
+    <string name="zijian">自检</string>
+    <string name="youyan_sanner_qr">用优眼APP扫描二维码</string>
+    <string name="train">训练</string>
+    <string name="return_">返回</string>
+    <string name="logining">正在登录中……</string>
+    <string name="device_connection_bluetooth_prepare">欢迎，设备连接蓝牙准备中……</string>
+    <string name="scanner_qrcode_download_youyanapp">手机扫描二维码下载优眼APP</string>
+    <string name="software_upgrade_msg">软件升级中,请稍后进行训练</string>
+    <string name="end_current_train">结束当前训练</string>
+    <string name="mirror_ball_degrees">球镜度数</string>
+    <string name="column_mirror_degrees">柱镜度数</string>
+    <string name="astigmatism_axial">散光轴位</string>
+
+
+    <!--presenter-->
+    <string name="receive_continue_instructions">接收到准备好继续指令</string>
+    <string name="training_has_not_yet_begun_please_wait">训练还未开始，请等待</string>
+    <string name="the_training_is_not_ready_please_wait">训练还未准备好，请等待</string>
+    <string name="pause_status_please_wait">暂停状态，请等待</string>
+    <string name="content_loop_mode">内容循环模式：</string>
+    <string name="get_article_fail">获取文章失败，现使用字母训练</string>
+    <string name="get_news_fail">获取新闻失败，现使用字母训练</string>
+    <string name="device_not_adjusted_well_msg">设备还未调整好，请调整好后按键</string>
+    <string name="reset_suc">重置成功</string>
+    <string name="receive_push_msg_instructions">接收到推送消息指令：</string>
+    <string name="get_user_sync_books_fail">获取用户同步图书失败</string>
+    <string name="current_level">当前等级：</string>
+    <string name="plese_not_frequently_press_key">按键请不要太频繁</string>
+    <string name="level">级</string>
+    <string name="not_ready">还未准备好</string>
+    <string name="loading">正在加载</string>
+    <string name="submit_data_please_wait">提交数据请稍后……</string>
+    <string name="submitting_save_data_please_later">正在提交保存数据请稍后……</string>
+    <string name="self_help_experience_success">自助体验结束成功</string>
+    <string name="update_the_status_of_the_training_please_later">更新训练状态中请稍后……</string>
+    <string name="failed_to_submit_data">提交数据失败:</string>
+    <string name="start_failed_to_update_reception_information">开始-更新接待信息失败</string>
+    <string name="end_failed_to_update_reception_information">结束-更新接待信息失败</string>
+    <string name="complete">完成了</string>
+    <string name="wait_for_the_next_optometrist">等待视光师下一步</string>
+    <string name="success">成功</string>
+    <string name="get_token_fail">失败：获取token失败</string>
+    <string name="fail">失败</string>
+    <string name="font_level">字体等级:</string>
+    <string name="get_qrcode">正在获取二维码...</string>
+    <string name="get_qrcode_fail">获取训练二维码失败，请点击刷新二维码</string>
+    <string name="update_train_status_submit">更新训练状态提交</string>
+    <string name="update_train_status_submit_fail">更新训练状态提交失败:</string>
+    <string name="submit_data">提交数据</string>
+    <string name="receive_reset_msg">收到重置消息</string>
+    <string name="connection_success">连接成功</string>
+    <string name="connection_fail">连接失败：</string>
+    <string name="token_verification_fail">token验证失败</string>
+    <string name="token_verification_suc">token验证成功</string>
+    <string name="execute_control_instruction_and_motor_adjustment">执行控制指令，电机调整完成</string>
+    <string name="receive_instruction_could_not_handle">接收到控制电机指令，但当前训练项目无法处理</string>
+    <string name="receive_instruction_settings_value_check_failed">接收到控制训练指令-设置值校验失败</string>
+    <string name="receive_control_instruction">接收到控制训练指令</string>
+
+
+
+    <!--PrepareDescManager-->
+    <string name="click_button_next_step">请点击机器按钮进行下一步操作!</string>
+    <string name="adjustment_device_height">请根据自身情况跳转设备高度!</string>
+    <string name="wear_glasses">请佩戴远用足矫眼镜</string>
+    <string name="adjust_heght_low_look_screen">请坐在训练椅上，调整额托高低，直至平视训练屏幕</string>
+    <string name="hand_in_key">请戴上耳麦，右手放在“确认键”上，训练中根据提示进行操作</string>
+    <string name="coordinated_spread_estimated_time_3minutes">即将训练的项目协调散开预计用时3分钟!</string>
+    <string name="pick_up_the_z_shaped_separator">请拿起Z形分隔板</string>
+    <string name="z_shape_separator_install">将Z形分隔板放置图上的位置</string>
+    <string name="press_key_start_train">准备好后按下“确认键”，立即开始训练</string>
+    <string name="pick_up_double_baffle">请拿起双孔挡板</string>
+    <string name="double_baffle_install_mode">双孔挡板安装的方式</string>
+    <string name="double_baffle_success_install">双孔挡板正确安装</string>
+    <string name="take_up_single_baffle">请拿起单孔挡板</string>
+    <string name="single_baffle_install_mode">单孔挡板安装的方式</string>
+    <string name="single_baffle_success_install">单孔挡板正确安装</string>
+    <string name="coordinated_spread_estimated_time_5minutes">即将训练的项目调节能力预计用时5分钟!</string>
+    <string name="see_clearly_screen_font_word_press_key">请在看清屏幕中文字或字母时按下机器按钮!</string>
+    <string name="select_read_content">选择阅读内容</string>
+    <string name="select_font_size">选择字体大小</string>
+    <string name="guide_rod_install">将引导棒安装在支架上</string>
+    <string name="coordinated_spread_estimated_time_1minutes">即将训练的项目协调集合预计用时1分钟!</string>
+    <string name="square_x_circular_keep_a_line">请将图中正方形、X、圆形看成一条竖线保持不变</string>
+    <string name="look_a_picture_keep">请看成一张图保持不变</string>
+    <string name="straight_line">直线</string>
+    <string name="dotted_line">虚线</string>
+    <string name="curve">曲线</string>
+    <string name="take_a_break">请休息片刻</string>
+    <string name="plese_select">请选择</string>
+    <string name="train_content_adjust">训练内容调整</string>
+    <string name="prompt_rest">提示休息</string>
+    <string name="see_train_level">眼训练级别</string>
+    <string name="train_end_look_distance_rest">1、训练结束，请望远休息</string>
+    <string name="take_down_single_or_double_daffle">2、请将(单)双孔挡板撤下放好</string>
+    <string name="take_down_z_shape_daffle">2、将Z形分隔板取下</string>
+    <string name="take_down_duide_rod">2、将引导棒取下放好</string>
+
+
+    <string name="select_book_is">选择的图书是：</string>
+    <string name="monocular">单眼</string>
+    <string name="train_end">训练完成</string>
+    <string name="reconnect">重试</string>
+    <string name="approach">推进</string>
+    <string name="train_content_prompt">请在app端下载选择您想训练的内容，默认我们会使用您选择的内容进行训练\n选择文章，我们将从您选择的文章开始循环显示缓存的内容\n选择新闻，我们将从您选择的新闻开始循环显示后面的新闻</string>
+
+    <string name="loop">循环</string>
+    <string name="order">顺序</string>
+    <string name="random">随机</string>
+    <string name="number">数字</string>
+    <string name="news">新闻</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="double_">双</string>
+    <string name="aggregate">集合</string>
+    <string name="spread">散开</string>
+    <string name="positive">正片</string>
+    <string name="negative">负片</string>
+    <string name="bluetooth_lost">蓝牙丢失</string>
+    <string name="Bluetooth_connection_success">蓝牙连接成功</string>
+    <string name="time">已用时:</string>
+    <string name="minutes">分</string>
+    <string name="seconds">秒</string>
+    <string name="millisecond">毫秒</string>
+    <string name="hour">时</string>
+    <string name="day">天</string>
+    <string name="network_timeout">网络响应超时，请检查网络连接</string>
+    <string name="pause_time_prompt">（暂停%s后，将结束训练）</string>
+
+
+    <!--welcomeActivity-->
+    <string name="bluetool_not_available">蓝牙不可用</string>
+    <string name="no_train_cannot_end">不在训练，不能结束项目</string>
+    <string name="train_not_complete_not_start_new_train">训练未完成，不能开始新的项目</string>
+    <string name="abnormal_state">状态异常</string>
+    <string name="equipment_is_occupied">当前设备被其他人占用</string>
+    <string name="receive_end_msg_but_not_current_train">收到服务器结束消息-但并不是当前训练</string>
+    <string name="receive_end_msg_not_start_train">收到服务器结束消息-设备并未开始训练</string>
+    <string name="receive_unlock_msg_not_current_train">收到服务器解锁训练消息-解锁的训练不是当前训练</string>
+    <string name="receive_unlock_msg_not_lock_status">收到服务器解锁训练消息-设备不是锁定状态</string>
+    <string name="receive_optometrist_exit_msg_not_exit_train">收到服务器视光师退出训练消息-当前设备被其他视光师占用，不能退出训练</string>
+    <string name="receive_create_self_train_not_start">收到创建自助体验训练消息-设备正在进行其他训练，无法开始</string>
+    <string name="current_train_not_handle_instructions">当前训练的项目无法处理推送训练内容的指令</string>
+    <string name="push_train_but_not_start">推送训练内容的指令-但当前还未开始训练</string>
+    <string name="end_train_plese_wait">结束训练中请稍后……</string>
+    <string name="end_suc">结束成功</string>
+    <string name="train_all_end">训练全部结束</string>
+    <string name="reset_completion">设备电机复位完成</string>
+    <string name="interpupillary_distance_adjustment_complete">调整瞳距完成</string>
+    <string name="get_msg_abnormal">获取接待信息异常</string>
+    <string name="other_pad_connect_this_device">有其他pad连接了此设备</string>
+    <string name="welcome_page_not_handle_msg">优眼仪在欢迎界面，接收到不能处理的%s类型的消息</string>
+
+
+
+
+
+</resources>

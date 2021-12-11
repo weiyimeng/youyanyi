@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minWidth="150dp"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+
+        <!--顶部提示按钮-->
+        <TextView
+            android:id="@id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="@string/prompt"
+            android:textColor="@android:color/black"
+            android:textSize="19sp" />
+
+        <!--中间容器-->
+        <RelativeLayout
+            android:id="@+id/rl_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:minWidth="280dp"
+            android:minHeight="40dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/iv_preview"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:gravity="center"
+                android:maxLines="3"
+                android:layout_toRightOf="@id/iv_preview"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <!--中间容器下面的线-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#D1D1D1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="46dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bt_cancel"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/uialert_left_btn_select"
+                android:text="@string/cancel"
+                android:textSize="17sp"
+                android:textColor="@color/btntextcolor" />
+            
+            <View
+                android:visibility="gone"
+                android:id="@+id/first_line"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#D1D1D1"/>
+            
+            <Button
+                android:visibility="gone"
+                android:id="@+id/bt_neutral"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/uialert_left_btn_select"
+                android:text="@string/dismiss"
+                android:textSize="17sp"
+                android:textColor="@color/btntextcolor" />
+
+            <View
+                android:id="@+id/second_line"
+                android:visibility="gone"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#D1D1D1"/>
+
+            <Button
+                android:id="@+id/bt_confirm"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/uialert_right_btn_select"
+                android:text="@string/confirm"
+                android:textSize="17sp"
+                android:textColor="@color/btntextcolor" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
